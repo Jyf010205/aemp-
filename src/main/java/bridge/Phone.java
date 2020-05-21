@@ -11,4 +11,10 @@ public abstract class Phone {
     public Phone(Brand brand){
         this.brand = brand;
     }
+
+    public abstract void websocket();
+
+    public void BrandName(){
+        brand.BrandName();
+    }
 }
