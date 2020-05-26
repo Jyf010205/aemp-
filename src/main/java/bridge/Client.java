@@ -10,5 +10,7 @@ public class Client {
         Phone foldedPhone = new FoldedPhone(new HuaWei());
         foldedPhone.websocket();
         foldedPhone.BrandName();
+        UpRightPhone upRightPhone = new UpRightPhone(new XiaoMi());
+        upRightPhone.websocket();
     }
 }
