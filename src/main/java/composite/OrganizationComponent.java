@@ -1,10 +1,13 @@
 package composite;
 
+import lombok.Data;
+
 /**
  * @author: jianyufeng
  * @description: 组合模式
  * @date: 2020/5/25 11:31
  */
+@Data
 public abstract class OrganizationComponent {
     private String name;
     private String des;
@@ -24,20 +27,4 @@ public abstract class OrganizationComponent {
     }
 
     protected abstract void print();
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDes() {
-        return des;
-    }
-
-    public void setDes(String des) {
-        this.des = des;
-    }
 }
